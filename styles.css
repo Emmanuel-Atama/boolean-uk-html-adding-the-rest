@@ -1,0 +1,312 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: opx;
+  }
+  .icon {
+    width: 40px;
+    height: 40px;
+    border: 2px dotted rgb(175, 56, 56);
+    border-radius: 5px;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  .search-bar {
+    width: 100px;
+    border: 1px dotted rgb(56, 78, 175);
+    background-color: #eee;
+    border-radius: 10px;
+  }
+  
+  .grid-container {
+    height: 100vh;
+    display: grid;
+    grid-template: "server-sidebar channel-sidebar main-view" 1fr / auto 200px 1fr;
+  }
+  .server-sidebar {
+    grid-area: server-sidebar;
+    width: 60px;
+    background-color: rgba(227, 229, 232, 255);
+    border: 1px dotted rgb(26, 26, 167);
+    margin: 2px;
+  }
+  .channel-sidebar {
+    grid-area: channel-sidebar;
+    background-color: rgba(242, 243, 245, 255);
+    border: 1px dotted rgb(26, 26, 167);
+    margin: 2px;
+  }
+  .main-view {
+    grid-area: main-view;
+    border: 1px dotted rgb(26, 26, 167);
+  }
+  .two-column-grid-head {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 6px;
+  }
+  .expand {
+  }
+  .two-column-grid-e1 {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 4px;
+  }
+  .two-column-grid-e2 {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 4px;
+  }
+  
+  .three-column-grid {
+    display: grid;
+    grid-template:
+      " . " auto /
+      1fr auto auto;
+    margin: 5px;
+  }
+  .three-column-grid-1 {
+    display: grid;
+    grid-template:
+      " . " auto /
+      1fr auto auto;
+    gap: 15px;
+    margin-right: 10px;
+  }
+  .two-column-grid__expand-two {
+    display: grid;
+    grid-template-columns: repeat(auto, auto);
+    gap: 5px;
+  }
+  .three-column-grid__exapnd-two {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5px;
+  }
+  .five-column-grid {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    gap: 2px;
+  }
+  .six-column-grid__expand-four {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+  }
+  
+  .eight-column-grid {
+    display: grid;
+    grid-template-columns: repeat(8, auto);
+  }
+  .server-icon {
+    width: 50px;
+    height: 50px;
+    border: 2px dotted rgb(175, 56, 56);
+    margin-bottom: 20px;
+    border-radius: 20px;
+    margin-left: 2.5px;
+  }
+  header {
+    padding: 5px;
+  }
+  .boolean-uk {
+    width: auto;
+    height: 40px;
+    border: 1px dotted rgb(175, 56, 56);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+  }
+  .box {
+    width: auto;
+    height: 30px;
+    border: 1px dotted rgb(175, 56, 56);
+  }
+  .box-1 {
+    width: 70px;
+    height: 30px;
+    border: 1px dotted rgb(175, 56, 56);
+  }
+  .icon-sm {
+    width: 30px;
+    height: 30px;
+    border: 1px dotted rgb(41, 35, 121);
+  }
+  .invite-friends {
+    width: auto;
+    height: 180px;
+    border: 1px dotted rgb(175, 56, 56);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+  }
+  img {
+    width: 60px;
+    height: 50px;
+    border-radius: 10px;
+  }
+  .buttons {
+    background-color: blueviolet;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .general {
+    width: auto;
+    height: 150px;
+    border: 1px dotted rgb(175, 56, 56);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+  }
+  .general-1 {
+    width: auto;
+    height: 40px;
+    border: 1px dotted rgb(175, 56, 56);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+  }
+  .general-2 {
+    width: auto;
+    height: 40px;
+    border: 1px dotted rgb(175, 56, 56);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+  }
+  .classes {
+    width: auto;
+    height: auto;
+    border: 1px dotted rgb(175, 56, 56);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+  }
+  .classes-1 {
+    width: auto;
+    height: 40px;
+    border: 1px dotted rgb(175, 56, 56);
+    margin: 4px;
+  }
+  .lobby {
+    width: auto;
+    height: auto;
+    border: 1px dotted rgb(175, 56, 56);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+  }
+  .staff {
+    width: auto;
+    height: auto;
+    border: 1px dotted rgb(175, 56, 56);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+  }
+  .little-profile-icon {
+    width: auto;
+    height: 50px;
+    border: 1px dotted rgb(175, 56, 56);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+  }
+  .profile-icon {
+    width: 30px;
+    height: 30px;
+    border: 1px dotted rgb(42, 63, 133);
+    border-radius: 50px;
+    padding: 5px;
+    margin-top: 4px;
+  }
+  .icon-sm-1 {
+    width: 25px;
+    height: 25px;
+    border: 1px dotted rgb(41, 35, 121);
+    margin-top: 6px;
+  }
+  .profile-name-bar {
+    width: 60px;
+    height: 30px;
+    border: 1px dotted rgb(68, 56, 175);
+    background-color: #eee;
+    border-radius: 10px;
+    margin-top: 4px;
+  }
+  .ash-logo {
+    width: 40px;
+    height: 40px;
+    border: 1px dotted rgb(175, 56, 56);
+    border-radius: 50px;
+    padding: 5px;
+    margin-top: 750px;
+    margin-left: 5px;
+  }
+  .welcome-to-class {
+    width: 300px;
+    height: 100px;
+    border: 1px dotted rgb(175, 56, 56);
+    padding: 5px;
+    margin-top: 0px;
+    margin: 5px;
+  }
+  .add-members {
+    width: 300px;
+    height: 40px;
+    border: 1px dotted rgb(175, 56, 56);
+    padding: 5px;
+    margin-top: 0px;
+    margin: 5px;
+  }
+  .instructors {
+    width: 300px;
+    height: 40px;
+    border: 1px dotted rgb(175, 56, 56);
+    padding: 5px;
+    margin-top: 0px;
+    margin: 5px;
+  }
+  .inst-logo {
+    width: 30px;
+    height: 30px;
+    border: 1px dotted rgb(175, 56, 56);
+    border-radius: 20px;
+  }
+  .search-bar-long {
+    width: 1400px;
+    height: 30px;
+    border: 1px dotted rgb(56, 58, 175);
+    background-color: #eee;
+    border-radius: 10px;
+  }
+  .three-column-grid-squash {
+    display: grid;
+    grid-template-columns: 20px 20px auto;
+  }
+  .msg-class {
+    width: auto;
+    height: 40px;
+    border: 1px dotted rgb(175, 56, 56);
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  .space {
+    width: auto;
+    height: 1fr;
+  }
+  .main-space {
+    width: auto;
+    height: 1fr;
+  }
+  .expand {
+    margin-left: 30rem;
+  }
+  
